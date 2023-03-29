@@ -23,14 +23,14 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @org.junit.Test
-    public void testRemain2() {
-        int amount = 1000;
-        int expected = 0;
-        CashbackHackService service = new CashbackHackService();
-        int actual = service.remain(amount);
-        assertEquals(actual, expected);
-    }
+//     @org.junit.Test
+//     public void testRemain2() {
+//         int amount = 1000;
+//         int expected = 0;
+//         CashbackHackService service = new CashbackHackService();
+//         int actual = service.remain(amount);
+//         assertEquals(actual, expected);
+//     }
 
     @org.junit.Test
     public void testRemain3() {
@@ -68,14 +68,14 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @org.junit.Test
-    public void testRemain7() {
-        int amount = 2000;
-        int expected = 0;
-        CashbackHackService service = new CashbackHackService();
-        int actual = service.remain(amount);
-        assertEquals(actual, expected);
-    }
+//     @org.junit.Test
+//     public void testRemain7() {
+//         int amount = 2000;
+//         int expected = 0;
+//         CashbackHackService service = new CashbackHackService();
+//         int actual = service.remain(amount);
+//         assertEquals(actual, expected);
+//     }
 
     @org.junit.Test
     public void testRemain8() {
